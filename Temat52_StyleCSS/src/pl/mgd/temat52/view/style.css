@@ -1,0 +1,27 @@
+
+.text-area {
+	-fx-background-color: #000000;
+    -fx-font-family: Comic Sans;
+    -fx-font-size: 13;
+    -fx-font-style: italic;
+}
+
+.text-area:hover {
+	-fx-background-color: 	#A9A9A9;
+}
+.text-area .scroll-pane:hover {
+	-fx-background-color: 	#A9A9A9;
+}
+.text-area .scroll-pane .viewport .content:hover {
+	-fx-background-color: 	#A9A9A9;
+}
+ 
+.button {
+	-fx-background-image: url("button.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 100% 100%;
+}
+
+.button:hover {
+		-fx-opacity: 0.5;
+}
